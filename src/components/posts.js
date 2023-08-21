@@ -14,9 +14,12 @@ const Posts = () => {
         getPosts();
     }, []);
 
+    console.log('tao cung dien luon')
+
     return (
         <div>
             <h1>Posts</h1>
+            <h2>sao kg thay gi troi</h2>
             {posts.map(post => (
                 <div key={post.id}>
                     <h2>
